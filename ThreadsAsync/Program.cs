@@ -49,7 +49,7 @@ namespace ThreadsAsync
                         raceFinished = true;
                         lock (consoleLock)
                         {
-                            Console.WriteLine($"\n {car.Name} har vunnit racet!");
+                            Console.WriteLine($"\n{car.Name} har vunnit racet!");
                         }
                         break;
                     }
